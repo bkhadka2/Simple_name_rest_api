@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% block body %} {% for name in names %}
+
+<li> {{name.first_name}} {{name.last_name}}</li>
+
+{% endfor %} {% endblock %}
