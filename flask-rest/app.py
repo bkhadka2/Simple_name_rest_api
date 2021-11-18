@@ -69,12 +69,4 @@ def api_delete(id):
     except:
         error = 'Could not delete name'
         return render_template('error.html', error=error)
-    return redirect('/api/display')
-    
-    
-    
-        
-        
-    
-
-    
+    return redirect('/api/display')  
